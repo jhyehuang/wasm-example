@@ -1,0 +1,12 @@
+2023-07-05 16:23:58.790	[INFO]	unit_test	wasmer-go/module.go:96	store.inner() => &{{{}}} 
+2023-07-05 16:23:58.791	[INFO]	unit_test	wasmer-go/module.go:97	wasmBytesPtr => 0x14000350000 
+2023-07-05 16:23:58.791	[INFO]	unit_test	wasmer-go/module.go:98	wasmBytesLength => 210518 
+2023-07-05 16:23:58.823	[ERROR]	unit_test	wavm/vm_pool.go:111	newInstanceFromModule fail: Missing import: `env`.`sys_call`
+github.com/jhyehuang/wasm-example/src/wavm.(*vmPool).newInstanceFromModule
+	/Users/huangzhijie/code/go-project/sxxl_code/wasm-example/src/wavm/vm_pool.go:111
+github.com/jhyehuang/wasm-example/src/wavm.newVmPool
+	/Users/huangzhijie/code/go-project/sxxl_code/wasm-example/src/wavm/vm_pool.go:154
+github.com/jhyehuang/wasm-example/src/wavm.TestInvoke
+	/Users/huangzhijie/code/go-project/sxxl_code/wasm-example/src/wavm/runtime_test.go:41
+testing.tRunner
+	/opt/homebrew/Cellar/go/1.20.2/libexec/src/testing/testing.go:1576

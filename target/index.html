@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="wasm_exec_tiny.js"></script>
+
+  </head>
+  <body>
+  <div id="main">
+    <center>
+      Check the javascript console output of your browser to ensure execution.
+    </center>
+  </div>
+  <canvas
+          width="20"
+          height="20"
+          style="image-rendering: pixelated; image-rendering: crisp-edges; width: 50%;"
+  ></canvas>
+
+  <h1>NOTE: Be careful if using headphones</h1>
+  <h1>Original Sine Wave</h1>
+  <div><button onclick="playOriginal()">Play</button></div>
+  <hr />
+  <h1>Amplified Sine Wave</h1>
+  <div><button onclick="playAmplified()">Play</button></div>
+  <hr />
+  <h1>Pause</h1>
+  <div><button onclick="pause()">Pause</button></div>
+
+  <script type="module" src="index.js">
+  </script>
+
+  </body>
+</html>

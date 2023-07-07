@@ -1,0 +1,17 @@
+syntax = "proto3";
+option go_package = "/common";
+package common;
+
+
+message Contract{
+  string name = 1;
+  string version = 2;
+}
+
+
+message   ContractResult{
+  fixed32  code =1 ;
+  bytes result=2;
+  string message=3;
+  fixed64  gas_used=4;
+}
